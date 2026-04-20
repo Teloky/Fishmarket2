@@ -1,0 +1,22 @@
+* {
+    text-wrap: auto;
+    background-color: rgba($color: #a4b2eb, $alpha: .5);
+}
+
+#fishButton {
+    background: none;
+    color:black;
+}
+
+@keyframes pencil{
+    from {
+
+    }
+    to {
+
+    }
+}
+
+#fishButton.hover {
+    animation: pencil;
+}
